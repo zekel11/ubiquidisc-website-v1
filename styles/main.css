@@ -75,6 +75,14 @@ body {
     color: var(--white);
 }
 
+.social-media-large-icons-container a {
+    text-decoration: none;
+}
+
+.social-media-large-icons-container p {
+    margin: 0;
+}
+
 .social-media-links-container a {
     text-decoration: none;
 }
@@ -104,4 +112,11 @@ body {
 
 .under-construction h1 {
     margin: 0;
+}
+
+@media (max-width: 400px) {
+    .social-media-large-icons-container img{
+        width: 48px;
+        height: 48px;
+    }
 }
