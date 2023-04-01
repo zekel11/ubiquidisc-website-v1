@@ -96,22 +96,12 @@ body {
     color: var(--white);
 }
 
-/* .spacer {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-} */
+.under-construction {
+    background-color: var(--red);
+    color: var(--white);
+    text-align: center;
+}
 
-/* .layer1 {
-    background-image: url('./assets/layered-waves1.svg');
-} */
-
-/* .layer2 {
-    background-image: url('./assets/layered-waves2-bottom.svg');
-} */
-
-/* .flip {
-    transform: rotate(180deg);
-} */
+.under-construction h1 {
+    margin: 0;
+}
